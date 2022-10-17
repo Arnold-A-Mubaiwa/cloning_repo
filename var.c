@@ -8,6 +8,6 @@ int sum(int a, int b)
 
 int main(void)
 {
-    printf(sum(2, 3));
+    printf("%d", sum(2, 3));
     return 0;
 }
