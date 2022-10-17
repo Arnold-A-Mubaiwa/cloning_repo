@@ -11,10 +11,10 @@ int sum(int a, int b)
 int add(int n, int a, ...)
 {
     va_list num; //declare
-    va_start(num, a); //initializing
+    va_start(num, n); //initializing
 
     int i;
-    int answer = a;
+    int answer = 0;
 
     for(i=1; i<n; i++)
     {
@@ -31,5 +31,4 @@ int main(void)
     printf("add = %d\n", add(3, 3, 2, 6));
     return 0;
 }
-
 
