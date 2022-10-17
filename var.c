@@ -18,7 +18,7 @@ int add(int n, int a, ...)
 
     for(i=1; i<n; i++)
     {
-        answer += va_arg(num, int);
+        answer = answer + va_arg(num, int);
     }
 
     va_end(num);
@@ -26,7 +26,7 @@ int add(int n, int a, ...)
 }
 int main(void)
 {
-    printf("%d\n", sum(4, 3));
-    printf("%d\n", add(4, 3, 2, 6));
+    printf("sum = %d\n", sum(4, 3));
+    printf("add = %d\n", add(4, 3, 2, 6));
     return 0;
 }
