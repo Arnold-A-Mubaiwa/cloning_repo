@@ -31,8 +31,5 @@ int main(void)
     printf("add = %d\n", add(3, 3, 2, 6));
     return 0;
 }
-num = [1,2,36,9]
-va_start //initializing
-va_arg
-va_end
+
 
